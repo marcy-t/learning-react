@@ -5,6 +5,7 @@ import TodoList from "./TodoList";
 import UseEffect from "./useEffect";
 import Counter from "./useReducer/counter"
 import Counter2 from "./useReducer/counter2"
+import Counter3 from "./useReducer/counter3"
 
 const Todo = () => {
     const initialState = [
@@ -32,6 +33,7 @@ const Todo = () => {
         <UseEffect/>
         <Counter/>
         <Counter2/>
+        <Counter3/>
         </div>
     );
 }
