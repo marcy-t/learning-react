@@ -3,6 +3,8 @@ import AddTodo from "./AddTodo";
 import TodoList from "./TodoList";
 // import API from "./api";
 import UseEffect from "./useEffect";
+import Counter from "./useReducer/counter"
+import Counter2 from "./useReducer/counter2"
 
 const Todo = () => {
     const initialState = [
@@ -28,6 +30,8 @@ const Todo = () => {
         <TodoList todos={todos} setTodos={setTodos} />
         {/* <API/> */}
         <UseEffect/>
+        <Counter/>
+        <Counter2/>
         </div>
     );
 }
