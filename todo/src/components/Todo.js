@@ -1,6 +1,8 @@
 import { useState } from "react";
 import AddTodo from "./AddTodo";
 import TodoList from "./TodoList";
+// import API from "./api";
+import UseEffect from "./useEffect";
 
 const Todo = () => {
     const initialState = [
@@ -24,6 +26,8 @@ const Todo = () => {
         <h1>ToDo List</h1>
         <AddTodo setTodos={setTodos} />
         <TodoList todos={todos} setTodos={setTodos} />
+        {/* <API/> */}
+        <UseEffect/>
         </div>
     );
 }
